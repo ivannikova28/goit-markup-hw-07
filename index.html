@@ -25,11 +25,11 @@
   <body>
     <header class="page-header">
       <div class="heder__conteiner container">
-        <nav class="page-nav">
-          <a class="link logo" href="./index.html"
+        <a class="link logo" href="./index.html"
             >Web<span class="logo-header">Studio</span></a
-          >
-          <ul class="menu list header__menu">
+          > 
+          <nav class="page-nav">
+            <ul class="menu list header__menu">
             <li class="menu-link">
               <a class="link-menu active link" href="./index.html">Studio</a>
             </li>
@@ -42,7 +42,7 @@
           </ul>
         </nav>
 
-        <address class="heder-address">
+        <address class="header-address">
           <ul class="list header-adress__menu">
             <li class="menu-address__item">
               <a
@@ -51,7 +51,7 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="menu-address__item">
               <a
                 class="contact-phone-number contact-email contacts link"
                 href="tel:+110001111111"
@@ -60,6 +60,26 @@
             </li>
           </ul>
         </address>
+        <!-- Mobile menu -->
+          <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -77,9 +97,9 @@
             Order Service
           </button>
         </div>
-      </section>
+      </section> 
       <!-- Section 2 -->
-      <section class="second-section">
+      <section class="section second-section">
         <div class="second__container container">
           <h2 class="second-section-title" hidden>content</h2>
           <ul class="list list__sect__second">
@@ -139,6 +159,7 @@
       </section>
 
       <!-- Sektion- 3 What are we doing -->
+
       <section class="section secrion__three">
         <div class="container container__three">
           <h2 class="section-title title-three">What are we doing</h2>
@@ -168,7 +189,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
 
       <!-- Section4 Our Team-->
 
@@ -179,6 +200,8 @@
             <li class="item-four-list">
               <img
                 class="list__four__img"
+                srcset="./images/our-team/img_mob@1x.jpg,
+                ./images/our-team/img_mob@2x.jpg"
                 src="./images/our-team/MarkGuerrero.jpg"
                 alt="foto-employee"
                 width="264"
@@ -247,6 +270,9 @@
             <li class="item-four-list">
               <img
                 class="list__four__img"
+                 srcset="./images/our-team/img2_mob@1x.png,
+                ./images/our-team/img2_mob@2x.png"
+
                 src="./images/our-team/TomFord.jpg"
                 alt="foto-Frontend Developer"
                 width="264"
@@ -281,7 +307,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -298,7 +324,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class=" icon-social"
                         width="16"
                         height="16"
                       >
@@ -315,7 +341,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -329,6 +355,8 @@
             <li class="item-four-list">
               <img
                 class="list__four__img"
+                 srcset="./images/our-team/img3_mob3@1x.jpg ,
+                ./images/our-team/img3_mob3@2x.png"
                 src="./images/our-team/CamilaGarcia.jpg"
                 alt="foto-Camila Garciaw"
                 width="264"
@@ -346,7 +374,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -363,7 +391,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -380,7 +408,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -397,7 +425,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -412,6 +440,9 @@
             <li class="item-four-list">
               <img
                 class="list__four__img"
+                srcset="./images/our-team/img4_@2x_mob3@1x.jpg ,
+                ./images/ur-team/img4_@2x_mob3@2x.jpg"
+                
                 src="./images/our-team/DanielWilson.jpg"
                 alt="foto-UI Designer"
                 width="264"
@@ -447,7 +478,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -464,7 +495,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -481,7 +512,7 @@
                       aria-label="linl to instagram"
                     >
                       <svg
-                        class="social-icon icon-social"
+                        class="icon-social"
                         width="16"
                         height="16"
                       >
@@ -494,11 +525,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
 
       <!-- Section 5 Customers -->
 
-      <section class="customers-section">
+    <section class="customers-section">
         <div class="container container-customers">
           <h2 class="section-title customers-title">Customers</h2>
           <ul class="customers-list">
@@ -588,14 +619,14 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> 
 
     <!-- Footer -->
     <footer class="footer">
       <div class="container container__footer">
         <div class="logo__container">
           <a class="logo-footer__link link logo" href="./index.html"
-            >Web<span class="logo-footer">Studio</span>
+            >Web<span class="logo-footer logo-accent">Studio</span>
           </a>
           <p class="text-footer">
             Increase the flow of customers and sales for your business with
@@ -605,7 +636,7 @@
 
         <div class="social_container">
           <p class="footer-sub">Social media</p>
-          <ul class="social-list">
+          <ul class="social-list footer-social-list ">
             <li class="social-item">
               <a
                 class="social-link_footer"
@@ -662,7 +693,7 @@
         </div>
 
         <div class="footer-form__box">
-          <p class="footer-form__text">Subscribe</p>
+          <p class="footer-social-text">Subscribe</p>
           <form class="footer-form">
             <label class="footer-label"></label>
             <input
@@ -672,8 +703,8 @@
               id="mail"
               placeholder="E-mail"
             />
-            <button class="footer-btn" type="submit">
-              Subscribe
+            <button class="footer-btn footer-form-text " type="submit">
+              <span class="footer-form-text">Subscribe</span>
               <svg class="footer-icon_send" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
@@ -755,6 +786,101 @@
         </form>
       </div>
     </div>
+    <!-- Mobile menu -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="./index.html" class="link mobile-link">Studio</a></li>
+        <li><a href="" class="link mobile-link">Portfolio</a></li>
+        <li><a href="" class="link mobile-link">Contacts</a></li>
+      </ul>
+
+      <ul class="mobile-contacts__list">
+        <li ><a class="mobile-tel" href="tel:110001111111" class="link">+11 (000) 111-11-11</a></li>
+        <li ><a class="mob-email" href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+      </ul>
+
+      <ul class="mobile-socials_list">
+            <li class="social-item">
+              <a
+                class="social-link_footer"
+                href=""
+                target="_blank"
+                rel="nooperer no-referrer"
+                aria-label="linl to instagram"
+              >
+                <svg class="social-icon__footer" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link_footer"
+                href=""
+                target="_blank"
+                rel="nooperer no-referrer"
+                aria-label="linl to instagram"
+              >
+                <svg class="social-icon__footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link_footer"
+                href=""
+                target="_blank"
+                rel="nooperer no-referrer"
+                aria-label="linl to instagram"
+              >
+                <svg class="social-icon__footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                class="social-link_footer"
+                href=""
+                target="_blank"
+                rel="nooperer no-referrer"
+                aria-label="linl to instagram"
+              >
+                <svg class="social-icon__footer" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+      </ul> 
+
+    </div>
+
     <script src="./js/modal.js"></script>
+    <!-- Mobile menu script -->
+     <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
